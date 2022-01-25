@@ -40,10 +40,51 @@
 }
 
 .button-gray {
+.button-red {
+    height: 5rem;
+    line-height: 5rem;
+    background: #e9252b;
+    color: #fff;
+    font-size: 1.6rem;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 0 3rem;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+    font-weight: 500;
+    margin-right: 3rem;
+}
+
+.button-red:hover {
+    background: #fff;
+    color: #e9252b;
+    border: 1px solid #e9252b;
+    text-decoration: none;
+}
+
+.button-invisible {
+    height: 5rem;
+    line-height: 5rem;
+    color: #fff;
+    font-size: 1.6rem;
+    border: 1px solid transparent;
+    display: inline-block;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+    font-weight: 500;
+}
+
+.button-invisible:hover {
+    color: #e9252b;
+}
+
+.button-purple {
     height: 5rem;
     line-height: 5rem;
     border: 1px solid transparent;
     font-size: 1.8rem;
+<<<<<<< HEAD
     color: #666679;
     text-align: center;
     width: 100%;
@@ -58,4 +99,21 @@
     border: 1px solid #666679;
     color: #fff;
     background: #666679;
+=======
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    display: block;
+    background: #6a2976;
+    border-radius: .5rem;
+    transition: all .3s ease-in-out;
+    margin-bottom: 3rem;
+    text-decoration: none;
+}
+
+.button-purple:hover {
+    border: 1px solid #6a2976;
+    color: #6a2976;
+    background: #fff;
+>>>>>>> 6ad2a592ae97a7541b2042149c277066adb8f291
 }

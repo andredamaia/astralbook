@@ -10,6 +10,8 @@
 @import '../styles/pages/zodiacos-interna.css';
 @import '../styles/pages/amigos.css';
 @import '../styles/pages/meu-perfil-editar.css';
+@import '../styles/pages/blog.css';
+@import '../styles/pages/blog-interna.css';
 
 @import '../styles/utils/base.css';
 @import '../styles/utils/text.css';
