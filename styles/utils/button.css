@@ -17,3 +17,45 @@
     color: #fff;
     border: 1px solid #6a2976;
 }
+
+.button-purple {
+    height: 5rem;
+    line-height: 5rem;
+    border: 1px solid transparent;
+    font-size: 1.8rem;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    display: block;
+    background: #6a2976;
+    border-radius: .5rem;
+    transition: all .3s ease-in-out;
+    margin-bottom: 3rem;
+}
+
+.button-purple:hover {
+    border: 1px solid #6a2976;
+    color: #6a2976;
+    background: #fff;
+}
+
+.button-gray {
+    height: 5rem;
+    line-height: 5rem;
+    border: 1px solid transparent;
+    font-size: 1.8rem;
+    color: #666679;
+    text-align: center;
+    width: 100%;
+    display: block;
+    background: #cdcdcd;
+    border-radius: .5rem;
+    transition: all .3s ease-in-out;
+    margin-bottom: 3rem;
+}
+
+.button-gray:hover {
+    border: 1px solid #666679;
+    color: #fff;
+    background: #666679;
+}

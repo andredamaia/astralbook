@@ -1,0 +1,58 @@
+.content-zodiacos-intro {
+    padding: 4rem;
+    position: relative;
+}
+
+.content-zodiacos-intro .row {
+    background: #7e238f;
+    padding: 3rem 2rem;
+    border-radius: .4rem;
+}
+
+.content-zodiacos-intro h1 {
+    font-size: 3.2rem;
+    line-height: 3.2rem;
+}
+
+.content-zodiacos-list p {
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.content-zodiacos-intro-back {
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+.content-zodiacos-list svg {
+    margin-right: 1rem;
+}
+
+.content-zodiacos-intro-symbol {
+    position: absolute;
+    bottom: 0;
+    right: 6rem;
+}
+
+.content-text h2 {
+    color: #7e238f;
+    font-size: 2.6rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.content-dates {
+    padding: 0 4rem;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid #e9e3ea;
+}
+
+.content-dates > div {
+    margin-right: 3rem;
+}

@@ -1,0 +1,66 @@
+.content-intro {
+    padding: 3rem 3rem 0;
+}
+
+.content-intro p {
+    font-size: 2rem;
+    line-height: 2.4rem;
+    color: #545454;
+    margin-bottom: 0;
+}
+
+.content-intro p span {
+    color: #870518;
+}
+
+.content-signos-chineses {
+    padding: 3rem 4rem 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1.5rem
+}
+
+.content-signos-chineses a {
+    text-decoration: none;
+}
+
+.box-signos-chineses {
+    background: #880518;
+    padding: 1rem;
+    border-radius: .6rem;
+    position: relative;
+    height: 14rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    transition: all .3s ease-in-out;
+}
+
+.box-signos-chineses:hover {
+    background: #46020d;
+}
+
+.box-signos-chineses img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 16rem;
+    transform: translateY(-1rem);
+}
+
+.box-signos-chineses span {
+    font-size: 1.7rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+.content-text {
+    padding: 3rem;
+}
+
+.content-text p {
+    margin-bottom: 2rem;
+}
