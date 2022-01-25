@@ -1,0 +1,121 @@
+.mini-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    background: #fff;
+    border-bottom: 1px solid #e9e3ea;
+    width: 100%;
+}
+
+.help-me {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.need-help {
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: #1e1e1e;
+    position: relative;
+    padding-right: 1.5rem;
+    margin-right: 1.5rem;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+
+.need-help:hover {
+    color: #6a2976;
+    text-decoration: none;
+}
+
+.need-help:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    right: 0;
+    top: 0;
+    background: #d9d9d9;
+}
+
+.cadastrar {
+    background: #f9f7f9;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.criar-conta {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.criar-conta input {
+    margin-bottom: 2rem;
+    background: transparent;
+}
+
+.criar-conta select {
+    width: 100%;
+    height: 3rem;
+    line-height: 3rem;
+    font-size: 1.6rem;
+    margin-bottom: 6rem;
+    background: transparent;
+    color: rgb(120, 120, 120);
+    border-bottom: 1px solid rgb(219, 219, 219);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.criar-conta select:focus {
+    outline: 0;
+}
+
+.criar-conta a {
+    margin-bottom: 3rem;
+}
+
+.criar-conta h4 {
+    font-size: 3rem;
+    line-height: 3.6rem;
+    font-weight: 700;
+    color: #6a2976;
+    margin-bottom: 2rem;
+}
+
+.termos {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.termos a {
+    margin-bottom: 0;
+    margin-left: .5rem;
+}
+
+.mini-footer {
+    position: relative;
+    padding: 2.5rem 0;
+}
+
+.mini-footer img {
+    position: absolute;
+    right: 50px;
+    top: 50%;
+}
+
+.mini-footer ul li a {
+    color: #787878;
+    margin-right: 2rem;
+}

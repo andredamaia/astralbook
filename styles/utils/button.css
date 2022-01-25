@@ -1,0 +1,19 @@
+.button-white {
+    height: 5rem;
+    line-height: 5rem;
+    background: #fff;
+    color: #6a2976;
+    font-size: 1.6rem;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 0 2rem;
+    transition: all .3s ease-in-out;
+}
+
+.button-white:hover {
+    text-decoration: none;
+    background: #6a2976;
+    color: #fff;
+    border: 1px solid #6a2976;
+}

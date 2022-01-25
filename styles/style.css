@@ -1,0 +1,9 @@
+@import '../styles/pages/login.css';
+@import '../styles/pages/cadastrar.css';
+@import '../styles/pages/sobre.css';
+@import '../styles/pages/home.css';
+
+@import '../styles/utils/base.css';
+@import '../styles/utils/text.css';
+@import '../styles/utils/button.css';
+@import '../styles/utils/responsive.css';

@@ -1,0 +1,240 @@
+.area-login {
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.area-purple {
+    background: url('../../images/bg-login.jpg') center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 8.5rem 0 1.5rem;
+}
+
+.login-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.astral-signos {
+    width: 100%;
+    text-align: center;
+}
+
+.login-title-content {
+    margin-bottom: 6.5rem;
+}
+
+.login-title-content p {
+    font-size: 2rem;
+    line-height: 3.2rem;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.login-title-content span {
+    border: 1px solid transparent;
+    background: #942aa4;
+    border-radius: .5rem;
+    padding: 0 1rem;
+    display: inline-block;
+    height: 3rem;
+    line-height: 2.5rem;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.menu-down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.menu-down ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.menu-down ul li a {
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 3rem;
+    transition: all .3s ease-in-out;
+}
+
+.menu-down ul li a:hover {
+    color: #942aa4;
+    text-decoration: none;
+}
+
+.area-white-login {
+    padding-left: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.area-white-login h2 {
+    font-size: 4rem;
+    line-height: 4.8rem;
+    color: #6a2976;
+    font-weight: 700;
+    margin-bottom: 2.5rem;
+}
+
+.area-white-login p {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: #787878;
+    margin-bottom: 4.5rem;
+}
+
+.input-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+
+.input-block img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.input-block label {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: #6a2776;
+    font-weight: 700;
+    margin-bottom: .5rem;
+}
+
+.input-block input {
+    border-bottom: 1px solid #dbdbdb;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    height: 3rem;
+    line-height: 3rem;
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+    color: #787878;
+}
+
+.input-block input:focus {
+    outline: 0;
+}
+
+.opcoes-senha {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3.5rem;
+}
+
+.opcoes-senha div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.opcoes-senha div label {
+    margin-left: 1rem;
+    font-size: 1.4rem;
+    color: #787878;
+}
+
+.opcoes-senha a {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: #787878;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+
+.opcoes-senha a:hover {
+    color: #6a2776;
+    text-decoration: none;
+}
+
+.button-purple {
+    height: 5rem;
+    line-height: 5rem;
+    border: 1px solid transparent;
+    font-size: 1.8rem;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    display: block;
+    background: #6a2976;
+    border-radius: .5rem;
+    transition: all .3s ease-in-out;
+    margin-bottom: 3rem;
+}
+
+.button-purple:hover {
+    border: 1px solid #6a2976;
+    color: #6a2976;
+    background: #fff;
+}
+
+.explorar {
+    height: 5rem;
+    line-height: 5rem;
+    border: 1px solid #6a2976;
+    font-size: 1.8rem;
+    color: #6a2976;
+    text-align: center;
+    width: 100%;
+    display: block;
+    background: #fff;
+    border-radius: .5rem;
+    transition: all .3s ease-in-out;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.explorar svg {
+    fill: #6a2776;
+}
+
+.explorar:hover {
+    background: #6a2976;
+    color: #fff;
+}
+
+.explorar:hover svg {
+    fill: #fff;
+}
+
+.criar-conta {
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: #787878;
+}
+
+.criar-conta a  {
+    color: #6a2976;
+    text-decoration: none;
+}

@@ -1,0 +1,145 @@
+.bg-banner {
+    background: url('/images/bg-banner.jpg') center no-repeat;
+    background-size: cover;
+    padding: 6.5rem 0;
+}
+
+.bg-banner h2 {
+    color: #fff;
+    margin-bottom: 4rem;
+}
+
+.bg-banner p {
+    font-size: 2.2rem;
+    line-height: 3rem;
+    color: #fff;
+    margin-bottom: 4rem;
+}
+
+.mapas-criados {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.mapas-criados span {
+    font-size: 5rem;
+    line-height: 7.5rem;
+    color: #fff;
+}
+
+.mapas-criados span p {
+    font-size: 2rem;
+    line-height: 3rem;
+    color: #fff;
+}
+
+.mapas-criados .button-white {
+    transform: translate(60px, 20px);
+}
+
+.bg-banner-left-side {
+    margin-top: 9rem;
+}
+
+.box-white-banner {
+    background: #fff;
+    border-radius: 5px;
+    padding: 5rem 6rem;
+    transform: translateX(60px);
+}
+
+.box-white-banner h3 {
+    color: #6a2976;
+}
+
+.box-white-banner p {
+    color: #787878;
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+.box-white-banner .criar-conta {
+    flex-direction: row;
+    margin-bottom: 0;
+}
+
+.box-white-banner .criar-conta a {
+    margin-bottom: 0;
+}
+
+.area-white {
+    padding: 7rem 0;
+    background: #fff;
+}
+
+.vantagens {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.box-vantagens {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box-vantagens strong {
+    font-size: 2.2rem;
+    line-height: 2.7rem;
+    color: #6a2876;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    display: block;
+}
+
+.box-vantagens p {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #525252;
+    padding: 0 4rem;
+}
+
+.box-vantagens img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 2rem;
+}
+
+.area-gray {
+    padding: 7rem 0;
+    background: #f9f7f9;
+}
+
+.area-gray h2 {
+    color: #6a2976;
+}
+
+.area-gray p {
+    color: #6a2976;
+    margin-bottom: 4rem;
+}
+
+.signos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.box-signos strong {
+    font-size: 2.2rem;
+    line-height: 2.6rem;
+    color: #6a2976;
+    font-weight: 600;
+    margin: 1.5rem 0;
+    display: block;
+}
+
+.box-signos p {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #525252;
+}
