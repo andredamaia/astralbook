@@ -1,0 +1,30 @@
+.blog-interna h2 {
+    margin-bottom: 5rem;
+}
+
+.interna-blog-img {
+    width: 100%;
+    height: 35rem;
+    overflow: hidden;
+    border-radius: 1rem;
+    margin-bottom: 4rem;
+}
+
+.interna-blog-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.blog-interna p {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    color: #525252;
+    margin-bottom: 4rem;
+    font-weight: 400;
+}
+
+.mini-title-purple {
+    color: #6a2976 !important;
+    font-weight: 500 !important;
+}

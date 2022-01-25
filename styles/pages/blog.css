@@ -1,0 +1,9 @@
+.bg-banner.blog-page {
+    background: url('/images/bg-banner-blog.jpeg') center no-repeat;
+    background-size: cover;
+    padding: 6.5rem 0;
+}
+
+.bg-banner.blog-page h1 {
+    font-weight: 600;
+}
